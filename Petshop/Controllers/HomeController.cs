@@ -21,7 +21,12 @@ namespace Petshop.Controllers
 
             return View();
         }
+        public ActionResult bank()
+        {
+            ViewBag.Message = "Your application descrdasasdiption page.";
 
+            return View();
+        }
         public ActionResult Contact()
         {
             ViewBag.Message = "Your contact page.";

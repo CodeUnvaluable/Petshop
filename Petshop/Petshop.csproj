@@ -1088,6 +1088,7 @@
     <Content Include="Scripts\kendo\2022.3.913\kendo.web.min.js.map" />
     <Content Include="Scripts\kendo\2022.3.913\kendo.window.min.js.map" />
     <Content Include="Scripts\kendo\2022.3.913\kendo.wizard.min.js.map" />
+    <Content Include="Views\Home\bank.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
@@ -1119,6 +1120,9 @@
     <Content Include="Scripts\bootstrap.bundle.js.map" />
     <Content Include="Scripts\jquery-3.4.1.slim.min.map" />
     <Content Include="Scripts\jquery-3.4.1.min.map" />
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{4A0DDDB5-7A95-4FBF-97CC-616D07737A77}" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
